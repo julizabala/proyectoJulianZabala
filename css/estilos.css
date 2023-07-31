@@ -1,113 +1,73 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-
-
-
-  nav ul li{
-
-    list-style: none;
-    display:inline-block;
-    margin-left:20px;
-    
-
-
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-.logo{
-    width: 150px;
-    height: 150px;
-
+@font-face {
+  font-family: fuentetitulo;
+  src: url(../assets/Fonts/LilitaOne-Regular.ttf);
+}
+@font-face {
+  font-family: fuentelinks;
+  src: url(../assets/Fonts/AbrilFatface-Regular.ttf);
+}
+@font-face {
+  font-family: fuenteparrafo;
+  src: url(../assets/Fonts/SofiaSansCondensed-Light.ttf);
+}
+header {
+  background-color: rgb(221, 255, 0);
+  border: solid;
+  padding: 10px;
+  border-radius: 15px;
 }
 
+body {
+  background-color: rgb(157, 181, 222);
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: fuentelinks;
+}
+
+a {
+  text-decoration: none;
+}
+
+.titulo {
+  text-align: center;
+  font-family: fuentetitulo;
+  color: rgb(143, 46, 10);
+}
+
+.parrafo {
+  font-family: fuenteparrafo;
+  font-size: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+}
 
 .carrusel {
-
-        width: 900px;
-        height: 900px;
-
+  width: 900px;
+  height: 900px;
 }
 
-
-.carru{
-       align-content: ;
-
-
+.imagen2 {
+  width: 500px;
+  height: 500px;
 }
 
-
-.titulo{
-      text-align: center;
-      font-family: FuenteTitulo;
-
-
-}
-
-
-.parrafo{
-        font-family: FuenteParrafo;
-        font-size: 20px;
-
-
-}
-
-
-@font-face {
-  font-family: 'FuenteTitulo';
-  src: url('../assets/Fonts/LilitaOne-Regular.ttf') format('truetype');
-}
-
-
-@font-face {
-  font-family: 'FuenteParrafo';
-  src: url('../assets/Fonts/SofiaSansCondensed-Light.ttf') format('truetype');
-}
-
-
-body{
-  background-color: rgb(255, 252, 78);
-  
-
-
-}
-
-.imagen{
+.imagen {
   width: 300px;
   height: 300px;
-
-}
-
-
-.cajaCamara{
-  margin-bottom: 20px;
-  position: relative;
-  left: 545px;
-
-
-
-  .imagen2{
-    width: 500px;
-    height: 500px;
-  
-  }
-  
-
-  .caja{
-
-    border: 1px solid;
-
-
-  }
-
-  .parrafo{
-
-    max-height: 315px;
-    overflow: auto;
-
-
-  }
+}/*# sourceMappingURL=estilos.css.map */
